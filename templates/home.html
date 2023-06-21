@@ -14,11 +14,12 @@
 
     </head>
     <body>
+      {% include 'nav.html' %}
       <div class="container">
          <h1 class="text-center mt-2 mb-4">
            {{company_name}} Careers
          </h1>
-          <img id="banner" class="img-fluid" src="https://m.economictimes.com/thumb/msid-60916721,width-1200,height-900,resizemode-4,imgsize-170135/five-ways-to-build-a-rewarding-career.jpg">
+          <img id="banner" class="img-fluid" src="/static/banner.jpg">
           <h2 class="text-center">About Us</h2>
           <p class="lead">
             Welcome to Jovian Careers! We are a team of career experts dedicated to helping you find fulfillment in your professional journey. Our personalized guidance, resources, and support will empower you to achieve your career goals. Join us today and unlock your full potential. Let's transform your dreams into reality.
@@ -31,8 +32,8 @@
           </div>
         <div class="text-center">
       <button class="btn btn-primary" type="button">Contact us</button>
-          <p class="mt-4">Copyright 2022, Bright</p>
         </div>
         </div>
+      {% include 'footer.html' %}
     </body>
 </html>
